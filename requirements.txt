@@ -1,0 +1,4 @@
+aiogram
+aiomysql # Асинхронный драйвер для MySQL
+python-dotenv # Для загрузки переменных окружения
+cryptography

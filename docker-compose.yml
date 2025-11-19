@@ -1,0 +1,8 @@
+services:
+  bot:
+    build: .
+    container_name: aiogram_anon_bot
+    restart: always
+    env_file:
+      - .env # Здесь передаются DB_HOST, DB_USER и т.д.
+    command: python bot.py
